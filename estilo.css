@@ -56,7 +56,8 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
+    align-items: center;
     /*flex-direction: column;*/
 }
 .corrige{
@@ -69,7 +70,8 @@ body{
     background-color: orangered;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
+    align-items: center;
     /*flex-direction: column;*/
 }
 .confirma{
@@ -81,6 +83,7 @@ body{
     width: 60px;
     display: flex;
     justify-content:center;
+    /*align-items: flex-start;*/
     align-items: center;
     /*flex-direction: column;*/
 }
