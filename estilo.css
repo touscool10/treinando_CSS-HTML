@@ -1,3 +1,100 @@
- div {
-     color: red;
- }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    margin-top: 30px;
+    background-color: black;
+   /* max-width: 250px;
+    max-height: 200px;*/
+}
+
+.numero{
+    color: white;
+    border: solid 2px;
+    border-color: #333;
+    margin: 10px;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px #888888;
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+}
+
+.teclado{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.linha_voto{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 10px;
+    align-items: flex-end;
+}
+.branco{
+    color: black;
+    border: solid 2px;
+    padding: 5px;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /*flex-direction: column;*/
+}
+.corrige{
+    color: black;
+    border: solid 2px;
+    padding: 5px;
+    margin-right: 10px;
+    height: 30px;
+    width: 50px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /*flex-direction: column;*/
+}
+.confirma{
+    color: black;
+    border: solid 2px;
+    padding: 5px;
+    background-color: green;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /*flex-direction: column;*/
+}
+
+.texto{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 9px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*.braile{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: inline-block;
+}*/
+
